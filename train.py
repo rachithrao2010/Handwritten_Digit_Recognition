@@ -1,7 +1,3 @@
-import os
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
 import tensorflow as tf
 
 mnist = tf.keras.datasets.mnist
@@ -21,15 +17,4 @@ model.compile(optimizer="adam", loss= "sparse_categorical_crossentropy", metrics
 
 model.fit(x_train, y_train, epochs=5)
 
-model.save("Handwritten_detection.keras")
-
-
-model = tf.keras.models.load_model("Handwritten_detection.keras")
-
-img = cv2.imread(r"C:\Users\mahen\OneDrive\Desktop\Model_Test_5.png")[:,:,0]
-img = np.invert(np.array([img]))
-prediction = model.predict(img)
-
-print(f"The digit was probably a {np.argmax(prediction)}")
-plt.imshow(img[0], cmap=plt.cm.binary)
-plt.show()
+model.save("model.keras")
