@@ -33,10 +33,11 @@ pip install numpy matplotlib tensorflow opencv-python
 2. **Use the trained model with your image**
 
    ```bash
-   python use.py --file=C://Users/Image.png
+   python use.py --file=C://Users/test_1.png 
    ```
 
-   Replace the path with your own image file (must be 28x28 grayscale or a similar digit).
+   Replace the path with your own image file (must be 28x28 grayscale) or a different number than 1. Make sure your file is in the same folder as use.py. 
+   I suggest making your images with MS Paint or Inkscape and you can resize the canvas on both to 28 x 28 px.
 ---
 
 ## 📝 Notes
