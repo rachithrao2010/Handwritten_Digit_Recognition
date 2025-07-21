@@ -28,7 +28,7 @@ pip install numpy matplotlib tensorflow opencv-python
    python train.py
    ```
 
-   This will train the model and save it as `Handwritten_detection.keras`.
+   This will train the model and save it as `model.keras`.
 
 2. **Use the trained model with your image**
 
