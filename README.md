@@ -16,7 +16,7 @@ A simple neural network using TensorFlow to recognize handwritten digits from th
 
    ```bash
    pip install numpy matplotlib tensorflow opencv-python
-````
+```
 
 ---
 
