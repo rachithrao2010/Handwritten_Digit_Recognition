@@ -1,8 +1,3 @@
-Sure! Here's a clean, nicely formatted `README.md` you can use:
-
----
-
-````markdown
 # Handwritten Digit Recognition
 
 A simple neural network using TensorFlow to recognize handwritten digits from the MNIST dataset.
